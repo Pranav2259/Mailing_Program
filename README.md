@@ -1,3 +1,3 @@
 # Mailing_Program
 
-GUI - https://github.com/Pranav2259/Mailing_Program/assets/85480256/e04702ae-8b01-4239-830c-e3e750488921
+![Screenshot 2023-07-28 154357](https://github.com/Pranav2259/Mailing_Program/assets/85480256/e99aa2dd-803f-4c97-8980-e6c10fcf49f1)
