@@ -1,9 +1,13 @@
 # E-Mailing Program
 
 A small Self-learning program where users can send emails through a Java program.
+
 -Maven is Used for Adding Dependencies and building this project.
+
 -JavaFX is used to Build a UI where users can Add all the inputs like- From, To, Password, and Message.
+
 -Uses Java Mail API to send Mail.
+
 
 Skills: Java MailAPI · JavaFX · Maven · Java
 
