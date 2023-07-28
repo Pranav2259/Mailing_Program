@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="349.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx_demo.HelloController">
+<padding>
+    <Insets bottom="10" left="10" right="10" />
+</padding>
+    <top>
+    <VBox alignment="CENTER" prefHeight="238.0" prefWidth="454.0" spacing="20.0">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" />
+    </padding>
+
+    <Label alignment="TOP_CENTER" prefHeight="22.0" prefWidth="410.0" text="Welcome to JavaFX Application!" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold Italic" size="18.0" />
+      </font></Label>
+   <TextField fx:id="RecepientAddress" promptText="TO EmailID" />
+   <TextArea fx:id="TMessage" prefHeight="112.0" prefWidth="414.0" promptText="Message" />
+    </VBox>
+
+</top>
+    <center>
+        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="454.0" spacing="20">
+            <TextField fx:id="SendersAddress" prefHeight="25.0" prefWidth="195.0" promptText="From EmailID" />
+            <PasswordField fx:id="SendersPass" prefHeight="25.0" prefWidth="205.0" promptText="Enter Password" />
+        </HBox>
+    </center>
+   <bottom>
+ <Button fx:id="SendButton" alignment="CENTER" onAction="#onSendButtonClick" prefHeight="30.0" prefWidth="157.0" text="SEND" BorderPane.alignment="CENTER">
+ </Button>
+   </bottom>
+</BorderPane>
